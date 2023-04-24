@@ -23,7 +23,7 @@ const userdetailsList = [
   {
     uniqueKey: 4,
     imageUrl: 'https://assets.ccbp.in/frontend/react-js/devon-lane-img.png',
-    name: 'Vakkalagadda',
+    name: 'Vakkalagadda sairam',
     role: 'Agriee Management officer',
   },
 ]
