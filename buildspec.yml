@@ -10,8 +10,5 @@ phases:
             - echo "Post build phase"
 artifacts:
     files:
-        - scripts/install_dependencies
-        - scripts/start_server
-        - scripts/stop_server
         - src/Components/UserProfile/index.js
     discard-paths: yes
