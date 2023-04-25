@@ -5,8 +5,8 @@ phases:
         commands:
             - echo "Build block"
             - ls
-            - echo "Running tests to check if "Congratulations" present in index.html file"
-            - grep "Congratulations" index.html
+            - echo "Running tests to check if "Congratulations" present in App.js file"
+            - grep "Congratulations" App.js
     post_build:
         commands:
             - echo "Post build phase"
@@ -15,6 +15,5 @@ artifacts:
         - scripts/install_dependencies
         - scripts/start_server
         - scripts/stop_server
-        - index.html
-        - appspec.yml
+        - App.js
     discard-paths: yes
