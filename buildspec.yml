@@ -15,5 +15,5 @@ artifacts:
         - scripts/install_dependencies
         - scripts/start_server
         - scripts/stop_server
-        - App.js
+        - src/App.js
     discard-paths: yes
