@@ -4,8 +4,8 @@ phases:
     build:
         commands:
             - echo "Build block"
-            - echo "Running tests to check if "Congratulations" present in src/App.js file"
-            - grep "Congratulations" src/App.js
+            - echo "Running tests to check if "Congratulations" present in src/Components/UserProfile/index.js file"
+            - grep "Congratulations" src/Components/UserProfile/index.js
     post_build:
         commands:
             - echo "Post build phase"
@@ -14,5 +14,5 @@ artifacts:
         - scripts/install_dependencies
         - scripts/start_server
         - scripts/stop_server
-        - src/App.js
+        - src/Components/UserProfile/index.js
     discard-paths: yes
