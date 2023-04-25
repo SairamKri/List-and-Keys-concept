@@ -9,6 +9,5 @@ phases:
     commands:
       - echo Build completed successfully
 artifacts:
-  files:
-    - target
+  type:zip
  discard-path: yes
